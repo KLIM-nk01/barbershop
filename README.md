@@ -1,3 +1,3 @@
-# This projeckt is Barbershop
+# This project is Barbershop
 
 
