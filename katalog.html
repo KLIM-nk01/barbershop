@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Каталог</title>
+  <link rel="stylesheet" href="./css/normalize.css">
+  <link rel="stylesheet" href="./css/style.css">
+</head>
+
+<body>
+
+  <header>
+    <nav class="main-navigation">
+      <a>
+        <img src="./img/logo.png" width="110" alt="Лого барбершопа Бородинский" />
+      </a>
+      <ul class="site-navigation">
+        <li><a href="info.html">Информация</a></li>
+        <li><a href="news.html">Новости</a></li>
+        <li><a href="price.html">Прайс-лист</a></li>
+        <li><a href="catalog.html">Магазин</a></li>
+        <li><a href="contacts.html">Контакты</a></li>
+      </ul>
+      <ul class="user-navigation">
+        <li>
+          <a href="./log_in_form.html">Войти</a>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+
+  <main>
+    <h1>Каталог</h1>
+  <form action="http://echo.htmlacademy.ru" class="filter" method="GET">
+    <fieldset>
+      <legend>Производители:</legend>
+      <ul>
+        <li>
+          <input type="checkbox" name="baxter-of-california" id="filter-baxter-of-california" />
+          <label for="filter-baxter-of-california">Baxter of California</label>
+        </li>
+
+        <li>
+          <input type="checkbox" name="mr-natty" id="filter-mr-natty" />
+          <label for="filter-mr-natty">Mr Natty</label>
+        </li>
+
+        <li>
+          <input type="checkbox" name="suavesito" id="filter-suavesito" />
+          <label for="filter-suavesito">Suavesito</label>
+        </li>
+      </ul>
+    </fieldset>
+
+    <fieldset>
+      <legend>Группа товаров:</legend>
+      <ul>
+        <li>
+          <input type="radio" name="product-group" id="filter-baxter-of-california" />
+          <label>Бритвенные принадлежности</label>
+        </li>
+
+        <li>
+          <input type="radio" name="product-group" id="filter-mr-natty" />
+          <label>Средства для ухода</label>
+        </li>
+
+        <li>
+          <input type="radio" name="product-group" id="filter-suavesito" />
+          <label></label>Аксесуары</label>
+        </li>
+      </ul>
+
+    </fieldset>
+    <button type="submit">Показать</button>
+  </form>
+  </main>
+
+
+
+
+</body>
+
+</html>
